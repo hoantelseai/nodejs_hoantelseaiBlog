@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoantelseai/nodejs_hoantelseaiBlog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "hoantelseaiBlog"
+  ],
+  "author": "hoantelseai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoantelseai/nodejs_hoantelseaiBlog/issues"
+  },
+  "homepage": "https://github.com/hoantelseai/nodejs_hoantelseaiBlog#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
